@@ -23,21 +23,24 @@
   
    <title>Sanrio Premotional-Website</title>
 
-   <style>
-     div 
-     .one {
-       float: left;
-       width: 33.3%;
-     }
-     .two {
-       float: center;
-       width: 33.3%;
-     }
-     .three {
-       float: right;
-       width: 33.3%;
-     }
-   </style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
    <!-- Warning about JavaScript, Cybersecurity Topic -->
    <noscript>Running Javascript is not nessessary in the HTML page ... FYI: your feature to execute scripts is turned off </noscript>
   
@@ -55,22 +58,19 @@
      <header><H1 style="font-size:1.5vw">Characters</header>
      <section>
         <ul style="font-size:1.2vw">
-        
-      <div class="one"><blockquote cite="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg">
-            <!-- Date accessed 20220708 -->
-            <!-- Width: 1300, Height: 606-->
-          </blockquote>
-          <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Images/23089796-wow-in-pop-art.jpg" title="WOW" style="width:50%; height:auto;"></div>
-          
-          <div class="one"><a href="Childpages/Hello Kitty.html" target="_blank">Hello Kitty</a></div>
-
-      <div class="two"><blockquote cite="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg">
-            <!-- Date accessed 20220708 -->
-            <!-- Width: 1300, Height: 606-->
-          </blockquote>
-          <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Images/23089796-wow-in-pop-art.jpg" title="WOW" style="width:50%; height:auto;"></div>
-          <div class="two"><a href="Childpages/Cinnamoroll.html" target="_blank">Cinnamoroll</a></div>
-
+      <div class="row">
+  <div class="column">
+    <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Images/23089796-wow-in-pop-art.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Images/23089796-wow-in-pop-art.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://previews.123rf.com/images/trimbaldi/trimbaldi1309/trimbaldi130900007/23089796-wow-in-pop-art.jpg" alt="Images/23089796-wow-in-pop-art.jpg" style="width:100%">
+  </div>
+</div>
+          <li></li><a href="Childpages/Hello Kitty.html" target="_blank">Hello Kitty</a>
+          <li><a href="Childpages/Cinnamoroll.html" target="_blank">Cinnamoroll</a>
           <li><a href="Childpages/My Melody.html" target="_blank">My Melody</a>
           <li><a href="Childpages/Kuromi.html" target="_blank">Kuromi</a>
           <li><a href="Childpages/Pompompurin.html" target="_blank">Pompompurin</a>
