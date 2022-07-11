@@ -17,14 +17,15 @@ WEBSITE TO-DO LIST
 - [x] add images to website
 - [x] change formate of website so images are side by side across screen
 - [x] add links to each charater under each photo
-- [] add text about each character on character page
-    - [] Hello Kitty
-    - [] Cinnamoroll
-    - [] My Melody
-    - [] Kuromi
-    - [] Pompompurin
+- [x] add text about each character on character page
+    - [x] Hello Kitty
+    - [x] Cinnamoroll
+    - [x] My Melody
+    - [x] Kuromi
+    - [x] Pompompurin
 - [] add text about Sanrio company
-- [] add text about author
+- [x] add text about author
+-----
 - [] add photos on character pages
     - [] Hello Kitty
     - [] Cinnamoroll
