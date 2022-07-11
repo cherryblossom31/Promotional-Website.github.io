@@ -31,3 +31,4 @@ WEBSITE TO-DO LIST
     - [] My Melody
     - [] Kuromi
     - [] Pompompurin
+- [] change color of tittle in about author page
