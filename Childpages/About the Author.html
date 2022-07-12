@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+div.fixed {
+  position: fixed;
+  bottom: 10px;
+} 
+</style>
      <!-- used by keyboard -->
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,14 +51,14 @@ body {
         <li> My dream is to travel to Japan with my Best friend
       </ul>
        </section>
-     <aside>About the author</aside>
-     <section><article>This is a page about the author of the website</article> </section>
-     <section><article><p>I am known as Jaime by my friends, I am artistic, and have a very "bubbly" personality. </p> </article> </section>
+     <div class="fixed"><aside>About the author</aside></div>
+     <div class="fixed"><section><article>This is a page about the author of the website</article> </section></div>
+     <div class="fixed"><section><article><p>I am known as Jaime by my friends, I am artistic, and have a very "bubbly" personality. </p> </article> </section></div>
  </p>
 </body>
 
 <footer>
-     <p>&copy Jaimelin Mah, powered by cherryblossom31 in GitHub</p>  
+ <div class="fixed"><p>&copy Jaimelin Mah, powered by cherryblossom31 in GitHub</p></div>  
 </footer>
 
 </html>
