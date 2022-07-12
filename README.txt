@@ -28,7 +28,7 @@ WEBSITE TO-DO LIST
 -----
 - [] add photos on character pages
     - [] Hello Kitty
-    - [] Cinnamoroll
+    - [x] Cinnamoroll
     - [] My Melody
     - [] Kuromi
     - [] Pompompurin
