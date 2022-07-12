@@ -27,9 +27,8 @@ WEBSITE TO-DO LIST
 - [x] add text about author
 -----
 - [] add photos on character pages
-    - [] Hello Kitty
+    - [x] Hello Kitty
     - [x] Cinnamoroll
     - [] My Melody
-    - [] Kuromi
     - [] Pompompurin
 - [] change color of tittle in about author page
