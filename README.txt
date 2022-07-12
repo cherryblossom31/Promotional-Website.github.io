@@ -23,7 +23,7 @@ WEBSITE TO-DO LIST
     - [x] My Melody
     - [x] Kuromi
     - [x] Pompompurin
-- [] add text about Sanrio company
+- [x] add text about Sanrio company
 - [x] add text about author
 -----
 - [x] add photos on character pages
@@ -33,4 +33,4 @@ WEBSITE TO-DO LIST
     - [x] My Melody
     - [x] Pompompurin
 - [x] change color of tittle in about author page
-- [] add text on footer
+- [x] add text on footer
