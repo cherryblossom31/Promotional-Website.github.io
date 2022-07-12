@@ -26,9 +26,11 @@ WEBSITE TO-DO LIST
 - [] add text about Sanrio company
 - [x] add text about author
 -----
-- [] add photos on character pages
+- [x] add photos on character pages
     - [x] Hello Kitty
     - [x] Cinnamoroll
-    - [] My Melody
-    - [] Pompompurin
-- [] change color of tittle in about author page
+    - [x] Kuromi
+    - [x] My Melody
+    - [x] Pompompurin
+- [x] change color of tittle in about author page
+- [] add text on footer
